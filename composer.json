@@ -1,0 +1,31 @@
+{
+    "name": "edgility/messageport",
+    "type": "library",
+    "description": "An easy-to-use PHP Class for accessing MessagePorts API.",
+    "keywords": ["messageport", "sms"],
+    "homepage": "https://github.com/edgility/messageport-PHP-API",
+    "license": "GNU",
+    "authors": [
+        {
+            "name": "Edgility",
+            "email": "support@edgility.com.au",
+            "homepage": "http://edgility.com.au"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Edgility\\Messageport\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
