@@ -147,7 +147,7 @@ class Messageport {
         switch ($this->_obj->code) {
             case 200:
                 $this->_response = 'Success';
-                $this->_notice = '';
+                $this->_notice = $this->_response;
                 break;
             case 400:
                 $this->_response = 'Bad Request';
@@ -162,7 +162,7 @@ class Messageport {
                 break;
             case 402:
                 $this->_response = 'Payment Required';
-                $this->_notice = '';
+                $this->_notice = $this->_response;
                 break;
             case 403:
                 $this->_response = 'Forbidden';
@@ -175,19 +175,19 @@ class Messageport {
                 break;
             case 405:
                 $this->_response = 'Method Not Allowed';
-                $this->_notice = '';
+                $this->_notice = $this->_response;
                 break;
             case 406:
                 $this->_response = 'Not Acceptable';
-                $this->_notice = '';
+                $this->_notice = $this->_response;
                 break;
             case 409:
                 $this->_response = 'Conflict';
-                $this->_notice = '';
+                $this->_notice = $this->_response;
                 break;
             default:
                 $this->_response = 'Unhandled Response';
-                $this->_notice = '';
+                $this->_notice = $this->_response;
                 break;
         }
     }
