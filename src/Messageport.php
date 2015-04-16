@@ -67,7 +67,7 @@ class Messageport {
      */
 
     public function sendMessage($message, $mobileNumber, $reference = null, $senderId = null) {
-        return $this->_makeRequest('messages', 'POST', array('messaage' => $message, 'number' => $mobileNumber, 'reference' => $reference, 'senderid' => $senderId));
+        return $this->_makeRequest('messages', 'POST', array('message' => $message, 'number' => $mobileNumber, 'reference' => $reference, 'senderid' => $senderId));
     }
 
     /**
