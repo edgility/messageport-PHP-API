@@ -9,7 +9,7 @@ namespace Edgility\Messageport;
  * MessagePort Information: http://edgility.com.au
  *
  * @author Edgility <https://github.com/edgility>
- * @version 1.0
+ * @version 1.1
  *
  */
 class Messageport {
