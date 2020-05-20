@@ -17,7 +17,7 @@ class Messageport {
     /**
      * The API base URL
      */
-    const API_URL = 'http://messageport.com.au/rest/v1/';
+    const API_URL = 'https://messageport.com.au/rest/v1/';
 
     /**
      * The API Unique Id
